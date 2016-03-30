@@ -187,7 +187,7 @@ plot.cur.results <- function(x.df, z_n, z_n.data, current.cluster.centers.df, ac
   if (!is.null(iter)){
     title <- paste(title, "iter:", iter)
   } 
-  arrangeGrob(g.pl2, g.pl1, g.pl4, g.pl3, ncol=2, main=title)
+  arrangeGrob(g.pl2, g.pl1, g.pl4, g.pl3, ncol=2, top=title)
 }
 
 # Produces the animation, the function is called from server.R
